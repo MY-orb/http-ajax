@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+				$.ajax({
+					type:"get",
+					url:"https://api.ricebook.com/hub/home/v1/web/week_choice.json?city_id=140&page=0",
+					success:function(res){
+						console.log(res)
+//						for(var i  in res){
+//							console.log(ress[i].imgFullPath)
+//						}
+					}
+				});
+		</script>
+	</body>
+</html>
